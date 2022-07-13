@@ -1,11 +1,11 @@
-Algoritmo "calculo de gasto combustivel"
+Algoritmo "projeto_calculo_de_gasto_combustivel"
 
 Var
-// Seção de Declarações das variáveis 
+
   distancia, consMedio, valCombustivel, consumo, gasto: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+
   escreva("Quantos km voce vai percorrer ? ")
   leia(distancia)
   escreva("Qual o consumo medio do seu veiculo em km/l ? ")
@@ -19,6 +19,6 @@ Inicio
   escreval
   escreval("Seu veiculo vai consumir aproximadamente ", consumo:3:2," litros ou mais")
   escreval
-  escreval("Voce vai gastar um valor aproximado de R$", gasto:4:2, " de combustivel ou mais")  
-  
+  escreval("Voce vai gastar um valor aproximado de R$", gasto:4:2, " de combustivel ou mais")
+
 Fimalgoritmo
